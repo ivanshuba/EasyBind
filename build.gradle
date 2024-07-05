@@ -5,6 +5,8 @@ plugins {
     id 'maven-publish'
 }
 
+sourceCompatibility = JavaVersion.VERSION_21
+
 group = 'com.github.ivanshuba'
 version = '0.0.1'
 
